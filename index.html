@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d18">
+  <title>Code Battle: The 0.0000000001-Bit Essay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scanlines"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span>67</span> CODE BATTLE</a>
+    <nav>
+      <a href="#battle">Battle</a>
+      <a href="#lore">Lore</a>
+      <button id="soundButton" aria-label="Toggle sound">SOUND: ON</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A TOTALLY SERIOUS ENGLISH ASSIGNMENT</p>
+        <h1>THE <span>0.0000000001-BIT</span> ESSAY</h1>
+        <p class="intro">Dad wants the essay. Lucas wants one more chess game. The cloud wants to spit out 57 quadrillion files. Only code can decide the winner.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#battle">START CODE BATTLE</a>
+          <button class="secondary" id="panicButton">DO NOT PANIC</button>
+        </div>
+        <div class="mini-stats">
+          <div><strong>4</strong><span>essay words</span></div>
+          <div><strong>67</strong><span>Lucas IQ*</span></div>
+          <div><strong>∞</strong><span>excuses</span></div>
+        </div>
+        <small>*value supplied by Doubao; accuracy is not guaranteed on Wednesdays.</small>
+      </div>
+      <div class="hero-machine" aria-label="Fake computer displaying the essay crisis">
+        <div class="window-bar"><i></i><i></i><i></i><span>essay_FINAL_REAL_USE_THIS.cpp</span></div>
+        <pre><code><span class="purple">#include</span> &lt;iostream&gt;
+<span class="purple">using namespace</span> std;
+
+<span class="blue">int</span> main()
+{
+    <span class="blue">bool</span> essayFinished = <span class="red">false</span>;
+    <span class="blue">bool</span> chessOpen = <span class="green">true</span>;
+    <span class="yellow">// Dad has entered the room</span>
+    cout &lt;&lt; <span class="green">"I am learning Englush"</span>;
+    <span class="purple">return</span> <span class="red">67</span>;
+}</code></pre>
+        <div class="terminal-line"><span>stockfish&gt;</span> M1 against Lucas</div>
+      </div>
+    </section>
+
+    <section class="battle-section" id="battle">
+      <div class="section-heading">
+        <p class="eyebrow">INTERACTIVE DISASTER ENGINE</p>
+        <h2>Defeat Dad before he opens the essay.</h2>
+        <p>Choose your move. Every choice changes your dignity, Dad's patience and the stability of reality.</p>
+      </div>
+
+      <div class="hud">
+        <div class="fighter lucas-card">
+          <div class="avatar">L</div>
+          <div><span>LUCAS</span><b id="lucasStatus">pretending to study</b></div>
+          <div class="meter"><i id="lucasHp"></i></div>
+          <strong id="lucasHpText">100 HP</strong>
+        </div>
+        <div class="versus">VS</div>
+        <div class="fighter dad-card">
+          <div class="avatar">D</div>
+          <div><span>DAD / STOCKFISH 18</span><b id="dadStatus">suspicious</b></div>
+          <div class="meter"><i id="dadHp"></i></div>
+          <strong id="dadHpText">100 PATIENCE</strong>
+        </div>
+      </div>
+
+      <div class="arena">
+        <div class="round-label" id="roundLabel">ROUND 1 / BROWSER PANIC</div>
+        <div class="scene" id="sceneText">
+          <p><b>Dad:</b> Hello, are you playing chess?</p>
+          <p><b>Lucas:</b> <em>quickly switches tabs</em> No. I am learning... Englush.</p>
+          <p><b>Dad:</b> Then show me your essay.</p>
+        </div>
+        <div class="choices" id="choices"></div>
+        <div class="battle-log" id="battleLog" aria-live="polite">
+          <div><span>SYSTEM</span> Code Battle initialized. RAM has written its will.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="terminal-section">
+      <div>
+        <p class="eyebrow">EMERGENCY TERMINAL</p>
+        <h2>Type a command. Regret it instantly.</h2>
+        <p>Try <code>help</code>, <code>essay</code>, <code>chess</code>, <code>cloud</code>, <code>doubao</code>, <code>stockfish</code>, <code>sudo win</code>, or something completely unreasonable.</p>
+      </div>
+      <div class="terminal">
+        <div class="terminal-output" id="terminalOutput"><p><span>lucas@definitely-studying</span>:~$ system ready</p></div>
+        <form id="terminalForm">
+          <label for="terminalInput">lucas@definitely-studying:~$</label>
+          <input id="terminalInput" autocomplete="off" spellcheck="false" autofocus>
+        </form>
+      </div>
+    </section>
+
+    <section class="lore" id="lore">
+      <div class="section-heading">
+        <p class="eyebrow">CLASSIFIED EVIDENCE</p>
+        <h2>The complete disaster archive.</h2>
+      </div>
+      <div class="lore-grid">
+        <article><span>01</span><h3>The Original Crime</h3><p>Lucas replaces Chess.com with a random English essay just as Dad enters the bedroom.</p></article>
+        <article><span>02</span><h3>The Cloud Incident</h3><p>The cloud spits out 57 quadrillion files. The essay is 0.0000000001 bit. Chess is 483,838,583 TB.</p></article>
+        <article><span>03</span><h3>The RAM–Goat Defense</h3><p>The computer explodes. Lucas explains that he killed the goat, therefore the RAM died.</p></article>
+        <article><span>04</span><h3>The Comment Trap</h3><p>Dad cannot hear anything after <code>//</code> because the remainder of the question is a comment.</p></article>
+        <article><span>05</span><h3>The Code Battle</h3><p>Hard-coded word counts, pointer accusations, recursion and parental-control libraries enter combat.</p></article>
+        <article><span>06</span><h3>The Final Revelation</h3><p>Dad removes his disguise. He was Stockfish 18. Doubao was the refrigerator. The weekend was sacrificed.</p></article>
+      </div>
+    </section>
+
+    <section class="achievement-section">
+      <div>
+        <p class="eyebrow">YOUR PERMANENT RECORD</p>
+        <h2>Achievements</h2>
+      </div>
+      <div class="achievements" id="achievements">
+        <div data-achievement="tab"><i>⌘</i><b>Tab Sacrifice</b><span>Switch away from chess</span></div>
+        <div data-achievement="cloud"><i>☁</i><b>Cloud Vomit</b><span>Recover too many files</span></div>
+        <div data-achievement="ram"><i>🐐</i><b>RAM Killer</b><span>Blame the goat</span></div>
+        <div data-achievement="comment"><i>//</i><b>Comment Attack</b><span>Make Dad ignore the question</span></div>
+        <div data-achievement="recursion"><i>∞</i><b>Stack Destroyer</b><span>Forget the base case</span></div>
+        <div data-achievement="ending"><i>♚</i><b>Weekend Sacrifice</b><span>Reach an ending</span></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <div class="ending-modal" id="endingModal" aria-hidden="true">
+    <div>
+      <p class="eyebrow">GAME OVER, PROBABLY</p>
+      <h2 id="endingTitle">THE WEEKEND WAS SACRIFICED</h2>
+      <p id="endingText"></p>
+      <div class="ending-score" id="endingScore"></div>
+      <button class="primary" id="restartButton">RESTART THE DISASTER</button>
+    </div>
+  </div>
+
+  <footer><span>Built with HTML, CSS, JavaScript and academically questionable decisions.</span><b>NO RAM WAS SAVED.</b></footer>
+  <script src="app.js"></script>
+</body>
+</html>
